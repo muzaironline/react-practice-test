@@ -1,0 +1,40 @@
+h1,
+p {
+  font-family: Lato;
+  font-size: 12px;
+}
+
+h3 {
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.Main-Container {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+/*  */
+.topBar {
+  background-color: rgb(1, 1, 31);
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.topBar > img {
+  width: 100px;
+}
+
+/*  */
+.ProdPreview {
+  width: 50%;
+  text-align: center;
+}
+
+.ProdPreview > img {
+  width: 100%;
+  max-width: 300px;
+}

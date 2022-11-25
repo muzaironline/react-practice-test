@@ -1,0 +1,67 @@
+.ProdDetails {
+  width: 50%;
+}
+
+.ProdCategory {
+  width: auto;
+  /* display: flex; */
+  margin-top: 5%;
+}
+
+.imgUnSel {
+  width: 55px;
+  border: 0.3px solid grey;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+.imgSelected {
+  width: 55px;
+  border: 1.5px solid black;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+.ProdCategory > img:hover {
+  border: 1.5px solid rgb(70, 66, 66);
+}
+.ProdCategory > img:active {
+  border: 1.5px solid red;
+}
+
+.ProdFunction {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  width: 100%;
+  display: flex;
+  /* font-family: Lato;
+  font-weight: 600;
+  font-size: 12px; */
+}
+
+.btn1 {
+  width: auto;
+  margin-right: 10px;
+  background-color: rgb(175, 170, 170);
+  border: none;
+  /* color: white; */
+  padding-block: 5px;
+  border-radius: 5px;
+  font-family: Lato;
+  font-size: 12px;
+}
+.btn1:hover {
+  border: 1px solid darkblue;
+}
+.btn2 {
+  width: auto;
+  margin-right: 10px;
+  background-color: rgb(100, 100, 100);
+  border: 1px solid black;
+  /* color: white; */
+  padding-block: 5px;
+  border-radius: 5px;
+  font-family: Lato;
+  font-size: 12px;
+}
+.btn2:hover {
+  border: 1px solid darkblue;
+}

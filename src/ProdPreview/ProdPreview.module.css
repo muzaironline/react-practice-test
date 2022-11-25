@@ -1,0 +1,41 @@
+/*  */
+p {
+  color: black;
+}
+.p2 {
+  color: white;
+}
+.ProdPreview {
+  width: 50%;
+  max-height: 40vh;
+  text-align: center;
+  /* height: 200px; */
+}
+
+.ProdPreview > img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.Time {
+  width: 50%;
+  max-height: 40vh;
+  color: wheat;
+  font-size: 25px;
+  position: relative;
+  top: -70%;
+  left: 25%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.Heartbeat {
+  color: red;
+  font-size: 45px;
+  position: relative;
+  top: -75%;
+  left: 5%;
+  /* transform: translate(-25%, -25%); */
+}
+p > .Heartbeat {
+  color: red;
+}
